@@ -45,7 +45,7 @@ if (isset($_POST['btnConvert'])) {
 $temp = $_POST['temp'];
 $scale = $_POST['scale'];
 $converted = convert($temp, $scale);
-echo "The today's temperature, $temp, converted is $converted.";
+echo "The today temperature, $temp, converted is $converted.";
 }
 ?>
 
